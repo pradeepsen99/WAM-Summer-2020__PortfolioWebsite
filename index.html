@@ -1,85 +1,149 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>[WAM] Portfolio 1 - COVID-19 Visualization by state</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <h1><span class="blue">&lt;</span>[WAM] Portfolio 1<span class="blue">&gt;</span> <span class="yellow">COVID-19 Visualization by state</pan></h1>
-    <h2>Created by <a href="http://pablogarciafernandez.com" target="_blank">Pradeep Senthil</a></h2>
+<html>
+	<head>
+		<title>Pradeep Senthil</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
 
-    <div>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQORcTs1cDgMpwNWKVtl8BR7Z2uGnvxQFbAUmX5JgsAbtGDaD9hMugquDwfQlL4-cdQM9wY-yZJ4h_D/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:49%;border:none;overflow:hidden;"></iframe>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ1Nfon_d95-6lO9-P0ktJweq1WNRzXwdX5bKOUlAnol9L9Bj6vgwpJyJgorhD5folHMqWVFH8W7FZe/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:49%;border:none;overflow:hidden;"></iframe>
-    </div>
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-    <h3>How to use the chart below:<br>
-        1) Click on the desired state you want to get the data on.<br>
-        2) On the top right hand chart it should show the Deaths by race which is distributed by population.<br>
-        3) On the bottom right hand chart it should show the racial demographic of the state. <br>
-        4) If you hover over a state it should show the number of deaths per county and rank them by the highest number of deaths.<br>
-    </h3>
+			<!-- Header -->
+				<header id="header">
 
-    <div
-      class="tableauPlaceholder"
-      id="viz1593993485865"
-      style="position: relative;"
-    >
-      <noscript
-        ><a href="#"
-          ><img
-            alt=" "
-            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_15927698683350&#47;COVID-19DeathsbyRace-WeightedDistributionbyPopulation&#47;1_rss.png"
-            style="border: none;" /></a></noscript
-      ><object class="tableauViz" style="display: none;"
-        ><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-        <param name="embed_code_version" value="3" />
-        <param name="site_root" value="" /><param
-          name="name"
-          value="Dashboard_15927698683350&#47;COVID-19DeathsbyRace-WeightedDistributionbyPopulation" /><param
-          name="tabs"
-          value="yes" /><param name="toolbar" value="yes" /><param
-          name="static_image"
-          value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_15927698683350&#47;COVID-19DeathsbyRace-WeightedDistributionbyPopulation&#47;1.png" />
-        <param name="animate_transition" value="yes" /><param
-          name="display_static_image"
-          value="yes" /><param name="display_spinner" value="yes" /><param
-          name="display_overlay"
-          value="yes" /><param name="display_count" value="yes" /><param
-          name="language"
-          value="en" /><param name="filter" value="publish=yes"
-      /></object>
-    </div>
+					<div class="content">
+						<div class="inner">
+							<h1>WAM Summer 2020</h1>
+							<p>A Portfolio website made by: <br />
+							Pradeep Senthil</p>
+						</div>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#work">Portfolio 1 - Play</a></li>
+							<li><a href="#internships">Portfolio 2</a></li>
+						</ul>
+					</nav>
+				</header>
 
-    <h3>What this means for COVID in the USA:
-        As you can see from the charts presented, there are many ways one ca 
-    </h3>
+			<!-- Main -->
+				<div id="main">
 
-    <script type="text/javascript">
-      var divElement = document.getElementById("viz1593993485865");
-      var vizElement = divElement.getElementsByTagName("object")[0];
-      if (divElement.offsetWidth > 800) {
-        vizElement.style.width = "100%";
-        vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
-      } else if (divElement.offsetWidth > 500) {
-        vizElement.style.width = "100%";
-        vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
-      } else {
-        vizElement.style.width = "100%";
-        vizElement.style.minHeight = "1050px";
-        vizElement.style.maxHeight = divElement.offsetWidth * 1.77 + "px";
-      }
-      var scriptElement = document.createElement("script");
-      scriptElement.src =
-        "https://public.tableau.com/javascripts/api/viz_v1.js";
-      vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
+					<!-- UIUC Transit Project Desc-->
+						<article id="UIUC_Transit">
+							<h2 class="major">UIUC Transit</h2>
 
+							<p>An app, based on your current location in the Champaign-Urbana area, gives the nearest 
+								CUMTD bus stop and the busses that run witin those stops. <br/><br/>
+								This app is currently available for <a href="https://itunes.apple.com/us/app/uiuc- transit/id1413291281?mt=8">download in the Apple App Store!</a>
+							</p>
+							<p>This app was designed by myslef using XCode written on Swift. The idea for the project started out when </p>
+							
+						</article>
 
-    
-  </body>
+					
+
+					<!-- Who I am -->
+						<article id="intro">
+							<h2 class="major">WAM Summer 2020 Portfolios</h2>
+							<p></p>
+							<p>
+							</p>
+						</article>
+
+					<!-- Work -->
+						<article id="work">
+							<h2 class="major">Portfolio 1 - Play</h2>
+							<div
+							class="tableauPlaceholder"
+							id="viz1593993485865"
+							style="position: relative;"
+							>
+							<noscript><a href="#"><img
+									alt=" "
+									src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_15927698683350&#47;COVID-19DeathsbyRace-WeightedDistributionbyPopulation&#47;1_rss.png"
+									style="border: none;" /></a></noscript>
+								<object class="tableauViz" style="display: none;"><param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+								<param name="embed_code_version" value="3" />
+								<param name="site_root" value="" /><param
+								name="name"
+								value="Dashboard_15927698683350&#47;COVID-19DeathsbyRace-WeightedDistributionbyPopulation" /><param
+								name="tabs"
+								value="yes" /><param name="toolbar" value="yes" /><param
+								name="static_image"
+								value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dashboard_15927698683350&#47;COVID-19DeathsbyRace-WeightedDistributionbyPopulation&#47;1.png" />
+								<param name="animate_transition" value="yes" /><param
+								name="display_static_image"
+								value="yes" /><param name="display_spinner" value="yes" /><param
+								name="display_overlay"
+								value="yes" /><param name="display_count" value="yes" /><param
+								name="language"
+								value="en" /><param name="filter" value="publish=yes"
+							/></object>
+							</div>
+							
+							<div>
+								<iframe src="https://docs.google.com/document/d/e/2PACX-1vQORcTs1cDgMpwNWKVtl8BR7Z2uGnvxQFbAUmX5JgsAbtGDaD9hMugquDwfQlL4-cdQM9wY-yZJ4h_D/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:49%;border:none;overflow:hidden;"></iframe>
+								<iframe src="https://docs.google.com/document/d/e/2PACX-1vQ1Nfon_d95-6lO9-P0ktJweq1WNRzXwdX5bKOUlAnol9L9Bj6vgwpJyJgorhD5folHMqWVFH8W7FZe/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:49%;border:none;overflow:hidden;"></iframe>
+							</div>
+
+							<h2 class="major"><a href="#UIUC_Transit">UIUC Transit</a></h2>
+							
+						</article>
+
+					<!-- About -->
+						<article id="internships">
+							<h2 class="major">HeHe Labs</h2>
+							
+						</article>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						
+					</ul>
+					<p class="copyright">&copy; Pradeep Senthil</a>.</p>
+				</footer>
+		</div>
+
+		
+		<div class="particles-js">
+				<div class="particles-js overlay"></div>
+				<div id="particles-js"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/particles.js"></script>
+			<script src="assets/js/app.js"></script>
+			<script type="text/javascript">
+				var divElement = document.getElementById("viz1593993485865");
+				var vizElement = divElement.getElementsByTagName("object")[0];
+				if (divElement.offsetWidth > 800) {
+				  vizElement.style.width = "100%";
+				  vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
+				} else if (divElement.offsetWidth > 500) {
+				  vizElement.style.width = "100%";
+				  vizElement.style.height = divElement.offsetWidth * 0.75 + "px";
+				} else {
+				  vizElement.style.width = "100%";
+				  vizElement.style.minHeight = "1050px";
+				  vizElement.style.maxHeight = divElement.offsetWidth * 1.77 + "px";
+				}
+				var scriptElement = document.createElement("script");
+				scriptElement.src =
+				  "https://public.tableau.com/javascripts/api/viz_v1.js";
+				vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			  </script>
+	</body>
 </html>
-
-å
