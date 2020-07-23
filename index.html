@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-
 <html>
 	<head>
 		<title>Pradeep Senthil</title>
@@ -9,7 +8,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-
+	<body onload='init()'>
 		<!-- Wrapper -->
 		<div id="wrapper">
 
@@ -27,7 +26,7 @@
 						<ul>
 							<li><a href="#intro">Intro</a></li>
 							<li><a href="#Portfolio1">Portfolio 1 - Play</a></li>
-							<li><a href="#internships">Portfolio 2</a></li>
+							<li><a href="#Portfolio2">Portfolio 2 - Practice</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -91,9 +90,12 @@
 						</article>
 
 					<!-- About -->
-						<article id="internships">
+						<article id="Portfolio2">
 							<h2 class="major">HeHe Labs</h2>
-							
+							<div>
+								<iframe src="https://pradeepsen99.github.io/d3.js_dataVisualization/" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:49%;border:none;overflow:hidden;"></iframe>
+							</div>
+							 
 						</article>
 				</div>
 
@@ -113,6 +115,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src='https://d3js.org/d3.v5.min.js'></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
